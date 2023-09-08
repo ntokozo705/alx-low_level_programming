@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 /**
- * mai:- the number checker
+ * main- the number checker
  *
  * Return: 0 always
  */
