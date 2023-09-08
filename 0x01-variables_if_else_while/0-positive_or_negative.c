@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 /**
- * main- the number checker
+ * mai:- the number checker
  *
  * Return: 0 always
  */
@@ -17,17 +17,17 @@ int main(void)
 	if (n > 0)
 	{
 		printf("is positive");
-		return 0;
+		return (0);
 	}
 	else if (n < 0)
 	{
 		printf("is negative");
-		return 0;
+		return (0);
 	}
 	else if (n == 0)
 	{
 		printf("is zero");
-		return 0;
+		return (0);
 	return (0);
 	}
 }
