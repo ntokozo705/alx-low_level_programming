@@ -4,7 +4,7 @@
  * main - List natural numbers below 1024
  *Description: multiples of 3 and 5
  *
- * return: Always 0.
+ * Return: Always 0.
  */
 
 int main(void)
