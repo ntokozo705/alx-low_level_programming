@@ -2,9 +2,8 @@
 /**
  * add - the main add function
  * Description: returns sum of two int
- *@n: the first varible
- @m: the second varible
-
+ *@n: the first variable
+ *@m: the second varible
  * Return: 1 success
  */
 
