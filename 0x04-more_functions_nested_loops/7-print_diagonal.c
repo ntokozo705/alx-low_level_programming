@@ -2,7 +2,7 @@
 
 /**
  * print_diagonal - diagonal print function
- * @n: the n times 
+ *@n: The n times
  *
  * Return: 0 always.
  */
