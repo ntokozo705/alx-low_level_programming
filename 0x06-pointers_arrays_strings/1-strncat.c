@@ -1,16 +1,17 @@
 #include "main.h"
 
 /**
- * _strcat - concatenates two strings
+ * _strncat - concatenates two strings
  * @dest: first string
  * @src: Second string
+ * @n: the integer limit
  *
  * Return: dest
  */
 
 char *_strncat(char *dest, char *src, int n)
 {
-	int i , j;
+	int i, j;
 
 	i = 0;
 	j = 0;
