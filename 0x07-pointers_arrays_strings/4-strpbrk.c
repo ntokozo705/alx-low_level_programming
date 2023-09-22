@@ -4,14 +4,14 @@
  * _strpbrk - Function that checks a string
  * @s: set of byte
  * @accept: input
- * 
+ *
  * Return: Always 0.
  */
 
 char *_strpbrk(char *s, char *accept)
 {
 	int i;
-	
+
 	while (*s)
 	{
 		for (i = 0; accept[i]; i++)
