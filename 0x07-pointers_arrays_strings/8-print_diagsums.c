@@ -15,12 +15,12 @@ void print_diagsums(int *a, int size)
 	s1 = 0;
 	s2 = 0;
 
-	for (z = 0; z <size; z++)
+	for (z = 0; z < size; z++)
 	{
 		s1 += a[z * size + z];
 	}
 	for (z = size - 1; z >= 0; z--)
 	{
-		s2 += a[z * size + (size - z -1)];
+		s2 += a[z * size + (size - z - 1)];
 	}
 }
