@@ -4,7 +4,7 @@
  * _strspn - The length prefix function
  * @s: Initial segment
  * @accept: the accepter
- *
+ * Return: n.
  */
 
 unsigned int _strspn(char *s, char *accept)
