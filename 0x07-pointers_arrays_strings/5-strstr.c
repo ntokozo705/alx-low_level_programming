@@ -2,7 +2,7 @@
 
 /**
  * _strstr - Functon to locate a substring
- * @haystack: string 
+ * @haystack: string
  * @needle: checker
  *
  * Return: pointer if success or null if failed.
@@ -10,9 +10,7 @@
 
 char *_strstr(char *haystack, char *needle)
 {
-	int i = 0;
-
-	while (haystack[i] != '\0')
+	for (; *haystack != '\0';haystack++)
 	{
 		char *h = haystack;
 		char *q = needle;
@@ -24,8 +22,6 @@ char *_strstr(char *haystack, char *needle)
 		}
 		if (*q == '\0')
 			return (haystack);
-		i++;
 	}
 	return (0);
 }
-
