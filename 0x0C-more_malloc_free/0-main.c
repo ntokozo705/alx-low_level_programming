@@ -12,7 +12,7 @@ int main(void)
 {
 	char *c;
 	int *i;
-	float *r;
+	float *f;
 	double *d;
 
 	c = malloc_checked(sizeof(char) * 1024);
