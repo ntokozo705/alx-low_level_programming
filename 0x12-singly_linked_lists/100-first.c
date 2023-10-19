@@ -1,11 +1,17 @@
 #include <stdio.h>
 
+
+/**
+ * myfirst - apply the constructor attribute
+ * Executed
+ */
+void myfirst(void) __attribute__ ((constructor));
+
 /**
  * first - prints a sentence before main
  *
  */
 
-void first(void) __attribute__ ((constructor));
 
 void first(void)
 {
