@@ -14,11 +14,10 @@ void print_binary(unsigned long int n)
 
 	if (n == 0)
 		_putchar('0');
-	
 	while (mask > 0)
 	{
 		int bit = (n & mask) ? 1 : 0;
-		
+
 		if (bit == 1)
 		{
 			printstar = 1;
