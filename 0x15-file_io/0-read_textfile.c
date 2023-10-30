@@ -1,17 +1,16 @@
 #include "main.h"
 #include <stdio.h>
-#include <stdlib.h>
 
 /**
  * read_textfile - Read and print to POSIX standard output
- *@filename- A pointer
- * @letters- number of letters printed
+ * @filename: A pointer
+ * @letters: number of letters printed
  *
  *
  * Return: Printed letters.
  */
 
-size_t read_textfile(const char *filename, size_t letters)
+ssize_t read_textfile(const char *filename, size_t letters)
 {
 	int fd;
 	ssize_t nrd, nwr;
