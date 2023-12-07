@@ -3,8 +3,8 @@
 /**
  * free_dlistint - free dlistint_t list
  * @head: pointer head
- * 
- * Return: null.
+ *
+ * Return: null
  */
 
 void free_dlistint(dlistint_t *head)
